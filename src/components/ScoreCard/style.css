@@ -1,0 +1,29 @@
+.score-card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.score-card-team-name {
+  padding: 5px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.score-card-team-score {
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 3em;
+  text-align: center;
+}
+
+.score-card-separator {
+  display: flex;
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 3em;
+  text-align: center;
+  align-items: flex-end;
+}
